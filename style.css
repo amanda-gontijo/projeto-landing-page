@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Cinzel", serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to bottom right, black, #4B251C, #7f5c0e);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.imagem-cabecalho {
+    height: 72px;
+    width: 80px;
+    border-radius: 110px;
+}
+
+.menu-cabecalho{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-cabecalho-item {
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
